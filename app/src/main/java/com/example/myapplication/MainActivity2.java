@@ -21,6 +21,7 @@ public class MainActivity2 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
         TextView tvname=findViewById(R.id.textView3);
+        TextView tv=findViewById(R.id.textView21);
         ImageView imageView1=findViewById(R.id.imageView4);
         ImageView imageView2=findViewById(R.id.imageView);
         ImageView imageView3=findViewById(R.id.imageView5);
@@ -32,6 +33,7 @@ public class MainActivity2 extends AppCompatActivity {
         ImageView imageicon2=findViewById(R.id.imageView6);
         ImageView imageicon3=findViewById(R.id.imageView2);
         Resources resources= getResources();
+
         Intent intentSend=new Intent(this,MainActivity4.class);
         Intent TechMe=new Intent(this,MainActivity6.class);
         Intent intentHistory=new Intent(this,MainActivity3.class);
@@ -45,6 +47,8 @@ public class MainActivity2 extends AppCompatActivity {
         imageicon3.getLayoutParams().height=265;
         imageicon3.getLayoutParams().width=240;
         SharedPreferences sp2=getApplicationContext().getSharedPreferences("User", Context.MODE_PRIVATE);
+        tv.setText(sp2.getString("money","56847"));
+
         String name=sp2.getString("Name","");
         tvname.setText(name);
         imageButton1.setOnClickListener(new View.OnClickListener() {

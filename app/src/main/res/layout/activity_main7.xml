@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity7">
+
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="410dp"
+        android:layout_height="230dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.459">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="269dp"
+                    android:layout_height="74dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView59"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/srbija"
+                        android:text="Мама"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:id="@+id/textView52"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/srbija"
+                        android:text="+79612346291"
+                        android:textSize="20dp" />
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/button51"
+                    android:layout_width="76dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Выбрать" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="269dp"
+                    android:layout_height="74dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView69"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/srbija"
+                        android:text="Папа"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:id="@+id/textView62"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/srbija"
+                        android:text="+79282213146"
+                        android:textSize="20dp" />
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/button61"
+                    android:layout_width="76dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Выбрать" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="269dp"
+                    android:layout_height="74dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView79"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/srbija"
+                        android:text="Витя"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:id="@+id/textView72"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/srbija"
+                        android:text="+79287779323"
+                        android:textSize="20dp" />
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/button71"
+                    android:layout_width="76dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Выбрать" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="269dp"
+                    android:layout_height="74dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView89"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/srbija"
+                        android:text="Сестра"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:id="@+id/textView82"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/srbija"
+                        android:text="+79619926472"
+                        android:textSize="20dp" />
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/button81"
+                    android:layout_width="124dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Выбрать" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="269dp"
+                    android:layout_height="74dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView99"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/srbija"
+                        android:text="Бабушка"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:id="@+id/textView92"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/srbija"
+                        android:text="+79321773452"
+                        android:textSize="20dp" />
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/button91"
+                    android:layout_width="76dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Выбрать" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="269dp"
+                    android:layout_height="74dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView109"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/srbija"
+                        android:text="Дедушка"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:id="@+id/textView102"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/srbija"
+                        android:text="+79641526432"
+                        android:textSize="20dp" />
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/button101"
+                    android:layout_width="76dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Выбрать" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="269dp"
+                    android:layout_height="74dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView119"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/srbija"
+                        android:text="Маша"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:id="@+id/textView112"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/srbija"
+                        android:text="+79281836792"
+                        android:textSize="20dp" />
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/button111"
+                    android:layout_width="76dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Выбрать" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <EditText
+        android:id="@+id/editTextText10"
+        android:layout_width="399dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:fontFamily="@font/srbija"
+        android:inputType="text"
+        android:textSize="28dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.916"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.215" />
+
+    <TextView
+        android:id="@+id/textView51"
+        android:layout_width="234dp"
+        android:layout_height="48dp"
+        android:fontFamily="@font/srbija"
+        android:text="Телефонная книжка"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.298" />
+
+    <TextView
+        android:id="@+id/textView49"
+        android:layout_width="410dp"
+        android:layout_height="44dp"
+        android:fontFamily="@font/srbija"
+        android:text="Перевод по номеру телефона/номеру карты"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.16" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="417dp"
+        android:layout_height="106dp"
+        android:background="#ff7f50"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView41"
+        android:layout_width="377dp"
+        android:layout_height="70dp"
+        android:fontFamily="@font/srbija"
+        android:text="Переводы"
+        android:textColor="#292929"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.529"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.04" />
+
+    <TextView
+        android:id="@+id/textView60"
+        android:layout_width="410dp"
+        android:layout_height="44dp"
+        android:fontFamily="@font/srbija"
+        android:text="Введите сумму перевода"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.755" />
+
+    <EditText
+        android:id="@+id/editTextText11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:textSize="30dp"
+        android:fontFamily="@font/srbija"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.82" />
+
+    <Button
+        android:id="@+id/button22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Отправить"
+        android:textSize="30dp"
+        android:fontFamily="@font/srbija"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.909" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
