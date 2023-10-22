@@ -38,6 +38,7 @@ public class MainActivity5 extends AppCompatActivity {
                 editor.putString("passport",editText4.getText().toString());
                 editor.putString("password",editText7.getText().toString());
                 editor.putBoolean("isReg",true);
+                editor.putString("money","56847");
                 editor.commit();
                 finish();
             }
