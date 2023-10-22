@@ -17,11 +17,12 @@ static int count=0;
 static String pas="";
     Intent intent;
     TextView deb;
+    TextView textView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        TextView textView=(TextView) findViewById(R.id.textView2);
+        textView=(TextView) findViewById(R.id.textView2);
         deb=(TextView) findViewById(R.id.textView);
         Button button0 =(Button) findViewById(R.id.button19);
         Button button1 =(Button) findViewById(R.id.button11);
@@ -144,6 +145,13 @@ static String pas="";
     void passwordRec()
     {
 
+        char[] a= pas.toCharArray();
+        Integer c=0;
+        for(char ch : a)
+        {
+            c++;
+        }
+
         SharedPreferences sp2=getApplicationContext().getSharedPreferences("User", Context.MODE_PRIVATE);
         String pass=sp2.getString("password","");
         if (pas.equals(pass))
@@ -153,6 +161,10 @@ static String pas="";
             toast1.show();
             Intent intent1=new Intent(this, MainActivity2.class);
             startActivity(intent1);
+        } else if (c.toString().equals("4")) {
+
+            pas="";
+            textView.setText("");
         }
     }
 }

@@ -45,7 +45,7 @@ public class MainActivity2 extends AppCompatActivity {
         imageicon3.getLayoutParams().height=265;
         imageicon3.getLayoutParams().width=240;
         SharedPreferences sp2=getApplicationContext().getSharedPreferences("User", Context.MODE_PRIVATE);
-        String name=sp2.getString("Name","kek");
+        String name=sp2.getString("Name","");
         tvname.setText(name);
         imageButton1.setOnClickListener(new View.OnClickListener() {
             @Override
